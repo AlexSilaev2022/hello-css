@@ -3,6 +3,14 @@
     text-decoration: none;
     color: #000;
     text-transform: capitalize;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+}
+@media (max-width: 520px) {
+    .nav-link {
+        flex-direction:row;
+    }
 }
 .nav-link:hover {
   text-decoration: underline;
