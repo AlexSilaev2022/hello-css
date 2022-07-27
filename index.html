@@ -1,67 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/index.css">
-  <link rel="stylesheet" href="styles.css">
-  <title>Food order</title>
-</head>
-
-<body>
-  <header id="header">
-    <img id="header-img" width="100"
-      src="//res2.weblium.site/res/5f2a84337eff35002186f181/5f31130849e9fb00228bb6b1_optimized" alt="Logo">
-    <nav id="nav-bar">
-      <a href="#about" class="nav-link">about</a>
-      <a class="nav-link" href="#categories">Categories</a>
-      <a class="nav-link" href="#contact">Contact</a>
-    </nav>
-  </header>
-  <main>
-    <section id="about">
-      <h1>Delivery of anything</h1>
-      <p class="about__text">Order delivery of anything to your home or office by any transport without leaving your
-        home.</p>
-      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/ix_62ipfVJk"
-        title="YouTube video player"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-    </section>
-    <section id="categories">
-      <h1 class="title">Сhoice of transport :</h1>
-      <div class="categories___scooter">
-        <img src="img/scooter-work.svg" alt="scooter">
-        <p class="scooter__small">Сompact parcels</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title>Resume</title>
+  </head>
+  <body>
+    <!--Main-->
+    <div class="main">
+      <!--Main Content-->
+      <div class="main-content">
+        <!--about user-->
+        <div class="about-user">
+          <h2>Front-End Developer</h2>
+          <h1 class="user-name">Oleksandr Silaiev</h1>
+          <p class="user-info">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+            ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+            accumsan lacus vel facilisis.
+          </p>
+        </div>
+        <!--Projects-->
+        <div class="project">
+          <h3 class="user-title">Projects</h3>
+          <ol class="project-list">
+            <li class="project-item">
+              <a class="project-list-html" href="https://hellenglish.goit.global/"
+                >https://hellenglish.goit.global/</a><span>.....................</span>[ <span>HTML5, CSS3</span> ]
+            </li>
+            <li class="project-item">
+              <a class="project-list-js" href="https://cryptohub.goit.global/"
+                >https://cryptohub.goit.global/</a><span>......................</span>[ <span>JavaScript</span> ]
+            </li>
+            <li class="project-item">
+              <a class="project-list-react" href="https://kidslike.goit.global/"
+                >https://kidslike.goit.global/</a><span>.............................</span>[ <span>React.js, Node.js</span> ]
+            </li>
+          </ol>
+        </div>
+        <!--Work-->
+        <div class="work">
+          <h3 class="user-title">Work Experience</h3>
+          <!--Company one-->
+          <div class="company-one">
+            <h4 class="company-user-title">Front-End Developer <span style="color: #FB6D3A;">Freelance</span></h4>
+            <p class="company-data">September 2019 - up to now <span>|</span> Country</p>
+            <ul class="work-list-one">
+              <li>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </li>
+              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+              <li>Risus commodo viverra maecenas.</li>
+              <li>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod.
+              </li>
+            </ul>
+          </div>
+          <!--Company two-->
+          <div class="company-two">
+            <h4 class="company-user-title">Manager <span style="color: #FB6D3A;">Roga & Kopyta New</span></h4>
+            <p class="company-data">March 2015 - October 2018 <span>|</span> Country</p>
+            <ul class="work-list-two">
+              <li>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod labore et dolore magna aliqua.
+              </li>
+              <li>Quis ipsum suspendisse ultrices gravida.</li>
+              <li>Risus commodo viverra maecenas.</li>
+            </ul>
+          </div>
+          <!--Company three-->
+          <div class="company-three">
+            <h4 class="company-user-title">Manager <span style="color: #FB6D3A;">Roga & Kopyta LLC</span></h4>
+            <p class="company-data">June 2014 - February 2015 <span>|</span> Country</p>
+            <ul class="work-list-three">
+              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+              <li>Quis ipsum suspendisse ultrices gravida.</li>
+              <li>Risus commodo viverra maecenas.</li>
+            </ul>
+          </div>
+        </div>
+        <!--Education-->
+        <div class="education">
+          <h3 class="user-title">Education</h3>
+          <h4 class="education-user">
+            National University of Radioelectronics
+          </h4>
+          <h4 class="education-user-position">Management</h4>
+          <p class="company-data">September 2009 - June 2014 <span>|</span> Country</p>
+        </div>
       </div>
-      <div class="categories__car">
-        <img src="https://klike.net/uploads/posts/2018-09/1537605406_1.jpg" alt="Car">
-        <p class="car__important"><em>Important</em> parcels</p>
-      </div>
-      <div class="categories__truck">
-        <img src="https://www.look.com.ua/large/201902/332939.jpg" alt="truck">
-        <p class="truck__big"><strong>Huge</strong> parcels</p>
-      </div>
-    </section>
-    <section id="contact">
-      <h1>Our contacts :</h1>
-      <p class="contact__phone">0800 111 333</p>
-    </section>
-  </main>
-  <footer>
-    <fieldset>
-      <legend>If you are ready...</legend>
-      <form id="form" action="https://www.freecodecamp.com/email-submit">
-        <input id="email" type="email" name="email" placeholder="Email" required>
-        <input id="submit" type="submit" value="GO-GO-GO">
-      </form>
-    </fieldset>
-  </footer>
-  <div class="script-for-testing-freecodecamp">
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <div id="fcc_test_suite_wrapper" style="position: relative !important; z-index: 99999 !important;"></div>
-  </div>
-</body>
-
+      <!--Sidebar-->
+      <aside class="sidebar">
+        <img class="user-photo" src="img/photo_2022-07-21_18-21-03.jpg" alt="user photo"/>
+        <!--Contacts-->
+        <div class="contacts">
+          <h3 class="sidebar-title">Contacts</h3>
+          <div class="contacts-info">
+            <p class="phone">
+              C: <a class="contacts-phone" href="tel:+77777777777"><span>+7 777 777 77 77</span></a>
+            </p>
+            <p class="mail">
+              E: <a class="contacts-mail" href="mailto:chornyiav@gmail.com"><span>chornyiav@gmail.com</span></a>
+            </p>
+          </div>
+        </div>
+        <!--Tech skills-->
+        <div class="tech-skills">
+          <h3 class="sidebar-title">Tech Skills</h3>
+          <ul class="sidebar-list">
+            <li><span>HTML</span></li>
+            <li><span>CSS3</span></li>
+            <li><span>GIT</span></li>
+            <li><span>WebPack</span></li>
+            <li><span>JavaScript</span></li>
+            <li><span>React.js</span></li>
+            <li><span>Node.js</span></li>
+          </ul>
+        </div>
+        <!--Soft skills-->
+        <div class="soft-skills">
+          <h3 class="sidebar-title">Soft Skills</h3>
+          <ul class="sidebar-list">
+            <li><span>Scrum</span></li>
+            <li><span>Agile</span></li>
+            <li><span>GTD</span></li>
+            <li><span>Teamwork</span></li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </body>
 </html>

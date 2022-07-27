@@ -1,79 +1,234 @@
-.nav-link {
-    margin: 15px;
-    text-decoration: none;
-    color: #000;
-    text-transform: capitalize;
+body {
+    font-family: "Montserrat", sans-serif;
+  }
+  .main {
+    background-color: #f5f7fa;
+    padding: 40px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-@media (max-width: 520px) {
-    .nav-link {
-        flex-direction:row;
-    }
-}
-.nav-link:hover {
-  text-decoration: underline;
-  text-decoration-color: green;
- }
-#header-img {
-    width: 70px;
-    height: 50px;
-    position: absolute;
-    right: 0;
-    margin: 80px;
-}
-img {
-    width: 150px;
-    height: 80px;
-}
-#categories, nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: 35px;
-}
-.title {
-    display: block;
-    font-size: 1.5em;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-}
-.categories___scooter, .categories__car, .categories__truck {
-    border: 1px #000 solid;
-    padding: 15px;
-    margin: 7px;
-    }
-header {
-    padding: 10px;
-    width: 100%;
-    height: 50px;
-    top: 0;
-    position: fixed;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    background-color: #ccc;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-}
-#about {
-    margin-top: 70px;
-    text-align: center;
-    background-color: aquamarine;
-    padding: 25px;
-    box-shadow: 0 10px 20px rgba(21, 95, 95, 0.19), 0 20px 20px rgba(116, 231, 105, 0.692);
-}
-#contact {
-    background-color: rgb(155, 190, 236);
-}
-footer {
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .main-content {
+    padding: 80px 150px 100px 90px;
+    background-color: #ffffff;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  }
+  .sidebar {
+    background-color: #1e2939;
+    margin: 0 auto;
+  }
+  .user-photo {
+    padding: 40px 0px 30px 0px;
+    width: 370px;
+  }
+  .sidebar-title {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+    width: 130px;
+    height: 27px;
+    line-height: 27px;
+  }
+  .sidebar-list {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 30px;
+    padding-left: 17px;
+  }
+  
+  .contacts-phone > span {
+    opacity: 0.5;
+  }
+  
+  .contacts-mail > span {
+    opacity: 0.5;
+  }
+  
+  .tech-skills,
+  .soft-skills,
+  .contacts {
+    padding-left: 40px;
+  }
+  
+  .tech-skills {
+    margin-top: 50px;
     margin-bottom: 40px;
-}
-#contact, footer {
-    text-align: center;
-}
+  }
+  
+  .sidebar-title {
+    margin-bottom: 8px;
+  }
+  
+  .sidebar-list > li {
+    color: #fb6d3a;
+  }
+  .sidebar-list > li span {
+    color: #ffffff;
+  }
+  
+  .phone,
+  .mail {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  
+  .project {
+    width: 450px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+  
+  .project-list {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 15px;
+  }
+  
+  .company-data {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .project-list-react,
+  .project-list-html,
+  .project-list-js {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    padding-left: 10px;
+  }
+  
+  .project-item > span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+  }
+  
+  .project-item {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+  }
+  
+  .contacts-phone {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 10px;
+  }
+  
+  .contacts-mail {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 10px;
+  }
+  
+  .user-name {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000000;
+    width: 590px;
+    height: 55px;
+  }
+  
+  h2 {
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+  }
+  
+  .user-info {
+    color: #595959;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    width: 520px;
+  }
+  
+  .project-list,
+  .work-list-one,
+  .work-list-three,
+  .work-list-two {
+    color: #595959;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    width: 520px;
+    padding-left: 15px;
+  }
+  
+  .user-title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-top: 0;
+    margin-bottom: 12px;
+  }
+  
+  .company-data {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #a8a8a8;
+  }
+  
+  .company-user-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 0;
+    margin-bottom: 12px;
+  }
+  
+  .company-data > span {
+    font-style: normal;
+    font-weight: 510;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+  
+  .company-three {
+    margin-bottom: 40px;
+  }
+  
+  .education-user {
+    color: #fb6d3a;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  
+  .education-user-position {
+    margin-bottom: 12px;
+    margin-top: 12px;
+  }
+  
+  .work-list-one,
+  .company-two {
+    margin-bottom: 20px;
+  }
+  
+  /*.sidebar-list > li {
+      list-style-type: none;
+  }
+  
+  .sidebar-list > li::before {
+      color: red;
+      content: "❤ ";
+  }*/
